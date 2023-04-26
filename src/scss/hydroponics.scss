@@ -1,0 +1,114 @@
+$small: 360px;
+$medium: 700px;
+$large: 2000px;
+$farm: '../pictures/vertical-farm.jpg';
+$kit: '../pictures/mock.jpg';
+
+
+.hydroponics{
+    background: url("../pictures/calm.jpg") no-repeat bottom center fixed, url("../pictures/hex.jpg");
+    background-blend-mode: screen !important;
+    border-radius: 25px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     box-shadow: 4px 3px 2px black orange wheat;
+     opacity: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+
+    @media only screen and (min-width: $small) and (max-width: $medium){
+        .hydroponics{
+            background-size: cover !important;
+            border-color: red;
+            border-style: dashed;
+            border-width: 5px;
+        }
+    }
+
+}
+
+.debug{
+    border-color: red;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.hydroponics > *{
+    margin: 2%;
+}
+
+.pot{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    img{
+        margin: auto;
+    }
+}
+
+.card{
+    border-radius: 10%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    h1{ 
+        color: rgb(73, 255, 182);
+        font-weight: bolder;
+        margin: auto;
+    } 
+    
+}
+
+.home{
+    width: 100vw !important;
+    max-width: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        color: rgb(73, 255, 182);
+    }
+   
+}
+
+.farm{
+    background-image: url($farm);
+}
+
+.kit{
+    background-image: url($kit);
+}
+
+.scix{
+    background: url("../pictures/vertical-cannabis-growing-system.jpg") no-repeat center fixed, url("../pictures/hex.jpg") bottom center fixed;
+    background-blend-mode: difference !important;
+    border-radius: 25px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    h1, p{  
+       justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    @media only screen and (min-width: $small) and (max-width: $medium){ 
+        width: 75%;
+    }
+}
