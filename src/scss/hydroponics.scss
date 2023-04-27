@@ -49,6 +49,7 @@ $kit: '../pictures/mock.jpg';
     }
 }
 
+span:hover {cursor: pointer !important;}
 .card{
     border-radius: 10%;
     -webkit-background-size: cover;
@@ -59,7 +60,7 @@ $kit: '../pictures/mock.jpg';
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer;
+   
     h1{ 
         color: rgb(73, 255, 182);
         font-weight: bolder;

@@ -3,12 +3,13 @@ import './scss/greenroom.scss'
 import './scss/navbar.scss'
 import Compass from './pictures/compass.jpg'
 import Scix from './pictures/scix-small.png'
+import Weed from './pictures/Yellow-Leaf-Small.png'
 
 const Navigate = () =>{
 
     return(<>
             <nav className='Nav justify-content-center align-text-bottom mx-auto p-4'> 
-                <img className="compass align-top" src={Scix} alt="navigation" />
+                <img className="compass align-top rounded-circle" src={Weed} alt="navigation" />
                 <Link to="/">Home</Link>
                 <Link to="/hydro">Hydro</Link>
                 <Link to="/sci">Science</Link>
