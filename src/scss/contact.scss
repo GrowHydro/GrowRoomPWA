@@ -1,0 +1,16 @@
+.contact{
+    
+    background: url("../pictures/hex.jpg") no-repeat center fixed, url("../pictures/vertical-farm-pot.jpeg") no-repeat center fixed;
+    background-blend-mode: overlay;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.contact > img{
+    justify-content: center;
+}

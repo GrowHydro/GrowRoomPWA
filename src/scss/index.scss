@@ -9,6 +9,9 @@ $galaxy-h: 780px;
 $galaxy-w: 360px;
 
 #root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: url("../pictures/calm.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
