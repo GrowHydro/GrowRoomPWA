@@ -3,7 +3,7 @@ $medium: 700px;
 $large: 2000px;
 $farm: '../pictures/vertical-farm.jpg';
 $kit: '../pictures/mock.jpg';
-
+$bestHydroKit: '../pictures/HydroponicFactory.webp';
 
 .hydroponics{
     background: url("../pictures/calm.jpg") no-repeat bottom center fixed, url("../pictures/hex.jpg");
@@ -87,7 +87,7 @@ span:hover {cursor: pointer !important;}
 }
 
 .kit{
-    background-image: url($kit);
+    background-image: url($bestHydroKit);
 }
 
 .scix{

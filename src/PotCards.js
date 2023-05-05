@@ -3,7 +3,7 @@ import HydroKit from './pictures/HydroponicFactory.webp';
 import VerticalFarm from './pictures/vertical-farm.jpg';
 import './scss/hydroponics.scss';
 import 'bootstrap/dist/css/bootstrap.css';
-import ContentReveal from "./Components/Reveal/Reveal";
+import ContentReveal from "./Components/Reveal/RevealContact";
 import RevealWhy from "./Components/Reveal/WhyReveal";
 import SocialLinksShare from './Components/SocialLinksShare';
 
