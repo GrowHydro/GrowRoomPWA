@@ -1,4 +1,7 @@
 $ahoy: '../pictures/navigation.jpg';
+$farm: '../pictures/potfarm.png';
+$hex: '../pictures/hex.jpg';
+
 $small: 360px;
 $medium: 700px;
 $medium-large: 900px;
@@ -11,9 +14,10 @@ $galaxy-h: 780px;
 $galaxy-w: 360px;
 
 .Nav{
-    background-image: url($ahoy), url("../pictures/hex.jpg"); 
-    background-position: center;
+    background-image: url($farm), url($hex); 
+    background-position: left !important;
     height: 15vh !important;
+    border-radius: 15%;
     background-blend-mode: lighten !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;

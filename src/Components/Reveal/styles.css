@@ -24,7 +24,7 @@
   width: 340px;
   color: white;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 15%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -59,12 +59,13 @@
   padding: 1rem;
   background-color: #000;
   color: #fff;
-  border: none;
+  border: orange;
   border-radius: 5px;
   cursor: pointer;
   z-index: 2;
   font-size: 1.2rem;
   font-weight: bold;
+  color: orange
 }
 
 .toggle-button:hover {

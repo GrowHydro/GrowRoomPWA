@@ -12,6 +12,7 @@ const Navigate = () =>{
                 <img className="compass align-top rounded-circle" src={Weed} alt="navigation" />
                 <Link to="/">Home</Link>
                 <Link to="/hydro">Hydro</Link>
+                <Link to="/kits">Kits</Link>
                 <Link to="/sci">Science</Link>
                 <Link to="/user">Users</Link>
                 <Link to="/contact">Contact</Link>

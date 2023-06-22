@@ -7,6 +7,8 @@ import Users from './Users'
 import PotCards from './PotCards'
 import Contact from './Components/Contact'
 import Sci from './Components/Sci'
+import Kits from './Components/Kits'
+import Kit from './Components/KitCard'
 
 const WelcomeGreenRoom = () =>{
 
@@ -18,6 +20,11 @@ const WelcomeGreenRoom = () =>{
                     <Route index element={<PotCards />} />
                     <Route path="/" element={<PotCards />} />
                     <Route path="/hydro" element={<Hydro />} />
+                    {/* <Route path="/kits" element={<Kits />} /> */}
+                    <Route path="/kits" element={<Kits />}  />
+                        
+                    <Route path="/kits/:kitId" element={<Kit />}/>
+                    {/* </Route>  */}
                     <Route path="users" element={<Users />} />
                     <Route path="/sci" element={<Sci />} />
                     <Route path="/contact" element={<Contact />} />

@@ -18,14 +18,14 @@ $bestHydroKit: '../pictures/HydroponicFactory.webp';
     flex-direction: column;
     justify-content: center;
     width: 33%;
-
+    p, h1{
+      font-weight: bolder;
+      align-self: center;
+      align-content: center;  
+    }
     @media only screen and (min-width: $small) and (max-width: $medium){
-        .hydroponics{
-            background-size: cover !important;
-            border-color: red;
-            border-style: dashed;
-            border-width: 5px;
-        }
+       width: 90%;
+       height: 100%;
     }
 
 }
@@ -110,6 +110,9 @@ span:hover {cursor: pointer !important;}
     }
 
     @media only screen and (min-width: $small) and (max-width: $medium){ 
-        width: 75%;
+        width: 85%;
+        height: 90%;
+        margin-top: 1rem;
+        padding-top: 1rem;
     }
 }

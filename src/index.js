@@ -7,7 +7,6 @@ import './index.css';
 import './scss/index.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 import WelcomeGreenRoom from './WelcomeGreenRoom';
-
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 

@@ -11,17 +11,16 @@ const RevealWhy = () => {
   };
 
   return (
-    <div className="reveal-y-container mx-auto my-1">
-      <button className="toggle-y-button" onClick={handleToggle}>
+    <div className="reveal-y-container mx-auto my-1 pt-4">
+      <button className="radius toggle-y-button " onClick={handleToggle}>
       {revealed ? "Hide" : "Why"}
       </button>
       <div className={`reveal-y-content ${revealed ? "revealed" : ""}`}>
         <h2>Why Hydroponics is Amazing</h2>
-        <p>Hydroponics can save you as much as 2000$ a year</p>
-        <p>Hydroponics can grow as much as you want</p>
-        <p>Hydroponics allows for year-round blooming</p>
+        <p>Hydroponics can save you as much as 5000$ a year</p>
+        <p>Make car payments/house payments instead of buying pot</p>
+        <p>Hydroponics can grow you much as you want</p>
         <p>Become your own Dispensary</p>
-        <p>No Government between you and your pot</p>
       </div>
       <div className={`ybackground ${revealed ? "revealed" : ""}`} />
     </div>

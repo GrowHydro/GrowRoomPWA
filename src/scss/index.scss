@@ -8,6 +8,17 @@ $iphone-14w: 393px;
 $galaxy-h: 780px;
 $galaxy-w: 360px;
 
+body{
+    height: 100Vh;
+    background: url("../pictures/bluewater.webp") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    @media only screen and (min-width: $small) and (max-width: $medium){
+        width: 100vw !important;
+        
+    }
+}
 #root{
     display: flex;
     flex-direction: column;
@@ -20,5 +31,13 @@ $galaxy-w: 360px;
     padding: 0% !important;
     @media only screen and (min-width: $small) and (max-width: $medium){
         width: 100vw !important;
+        
     }
+}
+
+.error{
+    background-size: cover !important;
+    border-color: red;
+    border-style: dashed;
+    border-width: 5px;
 }

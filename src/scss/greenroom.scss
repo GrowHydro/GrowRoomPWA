@@ -1,3 +1,5 @@
+$farm: '../pictures/potfarm.png';
+$verticalPot: "../pictures/vertical-cannabis-growing-system.jpg";
 $small: 360px;
 $medium: 700px;
 $large: 2000px;
@@ -11,7 +13,7 @@ $galaxy-w: 360px;
 .greenroom{
     display: flex;
     flex-direction: column;
-    background: url("../pictures/calm.jpg") no-repeat center fixed, url("../pictures/vertical-cannabis-growing-system.jpg") no-repeat center fixed;
+    background: url("../pictures/calm.jpg") no-repeat center fixed, url($farm) no-repeat center fixed;
     background-blend-mode: hue;
     -webkit-background-size: cover;
     -moz-background-size: cover;
